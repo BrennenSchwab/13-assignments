@@ -1,0 +1,53 @@
+.center {
+	text-align: center;
+}
+body {
+	background-color: rgb(176, 193, 240);
+}
+
+#movie-form {
+	margin-left: auto;
+	margin-top: 40px;
+}
+
+.movie-table {
+	width: 40%;
+	table-layout: fixed;
+	margin: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgb(206, 213, 245);
+	font-family: monospace;
+	font-style: bold;
+	font-size: 20px;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+label {
+	font-family: monospace;
+	font-size: 14px;
+	display: inline-block;
+	text-align: right;
+}
+
+#movieTitle {
+	width: 60%;
+}
+.btn {
+	color: white;
+	background-color: rgb(73, 46, 226);
+}
+tbody {
+	font-size: 16px;
+	font-family: monospace;
+	background-color: whitesmoke;
+}
+.form-group {
+	margin-left: auto;
+}

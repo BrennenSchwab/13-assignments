@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="movie.css">
+    <title></title>
+</head>
+<body>
+<div class = "center">
+   <form id= "movie-form">
+   <div class="form-group">
+    <label for="title">Title
+    <input type="text" required id="title">
+
+    <label for="rating">Rating
+    <input type="number" required  min="0" max="10" id="rating">
+ 
+    <button type="submit" class="btn">Submit</button>
+    </div>  
+</form> 
+</div>
+
+<table class = "movie-table">
+    <thead>
+        <tr>
+            <th scope = "col" id ="movieTitle">Movie Title</th>
+            <th scope ="col" id ="movieRating">Rating</th>
+            <th scope = "col" id = "remove">Delete</th>
+        </tr>
+    </thead>
+    <tbody id = "table-body">
+
+    </tbody>
+</table>
+
+<script src="movie.js"></script>
+</body>
+</html>
