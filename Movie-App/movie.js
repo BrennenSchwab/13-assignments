@@ -10,7 +10,7 @@ $(function() {
     let rating = $('#rating').val();
 
     let movieData = { title, rating, currMovie };
-    const HTMLtoAppend = createMovieDataHTML(movieData);
+    const HTMLtoAppend = createDataTable(movieData);
 
     currMovie++
     movieList.push(movieData);      
@@ -27,7 +27,7 @@ $(function() {
     
   });
 });
-function createMovieDataHTML(data) {
+function createDataTable(data) {
   return `
     <tr>
       <td>${data.title}</td>
